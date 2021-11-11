@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+	margin: 0px ;
+	padding-top: 0px;
+	font-family: 'Times New Roman';
+}
+.container{
+	margin-top: 0px;
+	margin: 0 auto;
+	max-width: 1012px;
+}
+.top-sec{
+	height: 34px;
+	background-color: #efefef;
+	border: 1px solid rgb(228, 228, 228);
+}
+.top-sec p{
+	color: rgb(0, 0, 0);
+	padding-bottom: 2px;
+	float: left;
+	margin: 0;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+
+}
+.small, small {
+    font-size: 13.333px;
+}
+.test-1-section p{
+	color: rgb(81, 81, 81) ;
+	display: block ;
+	font-family: Verdana, Geneva, sans-serif ;
+	font-size: 13px ;
+	line-height: 14.3px ;
+	-webkit-border-horizontal-spacing: 2px ;
+	-webkit-border-vertical-spacing: 2px ;
+	-webkit-margin-after: 13px ;
+	-webkit-margin-before: 13px ;
+	-webkit-margin-end: 0px ;
+	-webkit-margin-start: 0px
+}
+#respond h3{
+	border-collapse: 	separate;
+	display: block;
+	font-size: 18.72px;
+	font-weight: bold;
+	height: 22px;
+	width: 600px;
+	-webkit-border-horizontal-spacing: 2px;
+	-webkit-border-vertical-spacing: 2px;
+	-webkit-margin-after: 18.72px;
+	-webkit-margin-before: 18.72px ;
+	-webkit-margin-end: 0px;
+	-webkit-margin-start: 0px;
+}
+label{
+	font-weight: normal;
+}
+.top-sec .source{
+	margin-left: 58px;
+}
+.top-sec img{
+	position: absolute;
+	top: 4px;
+	right: 2px;
+
+}
+header img{
+	border: 1px solid rgb(228, 228, 228);
+	width: 100%;
+	margin-top: 0;
+	max-width: 100%;
+}
+.nav>li>a{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.navbar-nav{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+iframe{
+	max-width: 100%;
+}
+.menu-bar{
+	background-color: rgb(46, 46, 46);
+	margin: 0 auto;
+	height: 30px;
+	max-width: 982px;
+}
+.main-sec:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.menu-bar .container{
+	padding: 0;
+}
+.navbar-collapse{
+}
+.main-sec{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.navbar-nav li{
+	margin-left:-1px;
+}
+.navbar-nav .active{
+	background-color: rgb(0, 153, 255);
+}
+.navbar-nav li a{
+	line-height: 0px;
+	color: #fff;
+	white-space: nowrap;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar-nav li a:hover{
+	text-decoration: underline;
+	background-color: transparent;
+}
+.main-sec{
+	border: 1px solid rgb(228, 228, 228);
+}
+.main-sec .header-main{
+	width: auto;
+	height: auto; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin-top: 5px;
+	border-bottom:1px solid rgb(228, 228, 228);
+	border-left-color: rgb(0, 153, 255);
+	border-left-width: 3px;
+	border-left-style: solid;
+	background-color: rgb(255, 255, 255);
+}
+.main-sec .header-main h3{
+	text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: arial , Helvetica,sans-serif;
+    font-size: 26.66px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.market-class{
+	padding-bottom: 10px;
+}
+.an-name{
+	margin-top: 10px;
+}
+.report-name{
+	color: rgb(0, 153, 255);
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 12px;
+}
+.new-report-section {
+	padding: 5px 10px;
+	border: 1px solid rgb(224, 224, 224);
+	width: 180px;
+	height: auto;
+	color: rgb(102, 102, 102); 
+	line-height: 1.1em;
+	font-family: Georgia,"Times New Roman",Times,serif; 
+	font-size: 12px; 
+	margin-top: 20px;
+	font-style: italic;
+	margin-right: 12px;
+	margin-bottom: 5px;
+	float: left; 
+	background-color: rgb(255, 255, 255);
+}
+.heading-inner{
+	margin-top: 20px;
+}
+.heading-inner span{
+	color: rgb(0, 0, 0);
+    padding-bottom: 8px;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.h2, h2 {
+    font-size: 21px;
+    font-weight: bold;
+}
+.n-working {
+	padding: 2px 2px 10px;
+	width: 100%;
+	 height: 	auto; text-align: center; 
+	font-family: Verdana,Geneva,sans-serif; 
+	margin-right: auto; margin-left: auto; 
+	background-color: rgb(255, 255, 255);
+}
+.side-bar {
+	border: 0.5px solid rgb(240, 240, 240); 
+	width: 280px; height: auto; 
+	padding-top: 20px; 
+	padding-right: 10px; 
+	padding-left: 10px; 
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 14px; 
+	margin-top: 5px; 
+	float: left; 
+	background-repeat: 
+	no-repeat; 
+	background-color: rgb(255, 255, 255);
+}
+.weather-box {
+	padding: 2px 0px; 
+	border: 0px solid rgb(204, 204, 204); 
+	width: auto; 
+	margin-left: -7px;
+	margin-right: -15px;
+	height: auto; 
+	text-align: center; 
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 15px; 
+	font-weight: bold; 
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	clear: both
+}
+.AcuaWeather {
+	padding: 2px 10px 2px 2px; 
+	height: auto; 
+	text-align: center; 
+	margin-top: 5px; 
+	margin-right: auto; 
+	margin-left: 18px;
+}
+.WEATHERTAG {
+	border: 0.5px solid rgb(240, 240, 240); 
+	width: 280px; height: 
+	auto; padding-top: 2px; 
+	padding-right: 10px; 
+	padding-left: 10px; 
+	margin-top: 5px; 
+	margin-left: 10px; 
+	float: left; 
+	background-repeat: no-repeat; 
+	background-color: rgb(255, 255, 255);
+}
+.NAMEBOARD {
+	padding: 5px 10px 5px 5px; 
+	width: 284px; height: 15px; 
+	text-align: center; 
+	color: rgb(255, 255, 255); 
+	font-family: Tahoma,Geneva,sans-serif; 
+	font-size: 10px; 
+	font-weight: bold; 
+	margin-top: 5px; 
+	margin-left: 10px; 
+	float: left; 
+	background-color: rgb(0, 153, 255);
+}
+.RobertAllen {
+	padding: 2px 5px 5px 10px; 
+	border: 0.5px solid rgb(240, 240, 240);
+	width: 284px; 
+	height: auto; 
+	text-align: center; 
+	margin-top: 10px; 
+	margin-left: 10px; 
+	float: left; 
+	background-repeat: no-repeat; 
+	background-color: rgb(255, 255, 255);
+}
+.comments-section table{
+	width: 100%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.test-1-section{
+	max-width: 100%;
+}
+table{
+	max-width: 100%;
+}
+.comments-section{
+	max-width: 100%;
+}
+a:link {
+	color: rgb(31, 140, 242); text-decoration: none;
+}
+a:visited {
+	color: rgb(31, 140, 242); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 0, 0); text-decoration: underline;
+}
+a:active {
+	color: rgb(31, 140, 242); text-decoration: none;
+}
+#LOGO {
+	border: 0.5px solid rgb(228, 228, 228); width: 980px; height: auto; text-align: center; margin-right: auto; margin-left: auto; background-color: rgb(255, 255, 255);
+}
+.NEWS13 {
+	border-color: rgb(198, 0, 0); padding: 2px; width: 280px; height: auto; text-align: center; margin-right: auto; margin-left: auto;
+}
+.RA-VIDEO {
+	padding: 5px 10px 10px; border: 1px solid rgb(204, 204, 204); width: 280px; height: auto; text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: 12px; margin-bottom: 8px; margin-left: 10px; background-repeat: no-repeat; background-color: rgb(255, 255, 255);
+}
+body {
+	margin: 0px; background-color: rgb(255, 255, 255);
+}
+.term-conditions {
+	max-width: 100%;
+	background-position: center top; border: 8px solid rgb(255, 255, 255); width: 965px; height: auto; text-align: left; color: rgb(204, 204, 204); padding-top: 2px; padding-right: 10px; padding-left: 10px; font-family: Verdana,Geneva,sans-serif; font-size: 10px; font-weight: lighter; margin-top: 20px; margin-right: auto; margin-left: auto; background-repeat: no-repeat; background-color: rgb(255, 255, 255);
+}
+.TermsConditionsads {
+	background-position: center top; border: 8px solid rgb(255, 255, 255); width: 965px; height: auto; text-align: left; color: rgb(204, 204, 204); padding-top: 2px; padding-right: 10px; padding-left: 10px; font-family: Verdana,Geneva,sans-serif; font-size: 10px; font-weight: bold; margin-top: 20px; margin-right: auto; margin-left: auto; background-repeat: no-repeat; background-color: rgb(255, 255, 255);
+}
+.copy-rights {
+	width: 400px; height: auto; text-align: center; color: rgb(153, 153, 153); font-family: Tahoma,Geneva,sans-serif; font-size: 9px; margin-right: auto; margin-left: auto;
+}
+.new-report-section {
+	padding: 5px 10px; border: 1px solid rgb(224, 224, 224); width: 180px; height: auto; color: rgb(102, 102, 102); line-height: 1.1em; font-family: Georgia,"Times New Roman",Times,serif; font-size: 12px; font-style: italic; margin-right: 12px; margin-bottom: 5px; float: left; background-color: rgb(255, 255, 255);
+}
+.all-comments {
+	width: 580px; height: auto; line-height: 1.1em; padding-top: 5px; padding-left: 3px; font-family: Verdana,Geneva,sans-serif; font-size: 13px; margin-left: 0;
+}
+.main-comment {
+	width: 550px; height: auto; padding-left: 10px; font-family: Tahoma,Geneva,sans-serif; font-size: 11px;
+}
+.main-name-section {
+	width: 550px; height: auto; color: rgb(0, 153, 255); padding-left: 10px; font-family: Georgia,"Times New Roman",Times,serif; font-size: 13px; font-weight: normal;
+}
+.comments-section {
+	padding: 10px 10px 1px 5px; border: 0.1px dotted rgb(0, 204, 255); width: 590px; height: auto; color: rgb(81, 81, 81); font-family: Arial,Helvetica,sans-serif; background-color: rgb(255, 255, 255);
+	margin-top: 10px;
+}
+.step-stokes {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.main-sec h2 {
+    color: rgb(40, 40, 40);
+    line-height: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.main-sec > div > p {
+    height: auto;
+    color: rgb(40, 40, 40);
+    line-height: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 2px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+.test-1-section {
+	width: 600px; height: auto; padding-left: 20px; margin-top: 10px; float: left;
+}
+
+.namebig {
+	color: #666;
+}
+
+@media (max-width: 1100px) {
+	.top-sec .source{
+		margin-left: 48px;
+	}
+	.navbar-nav .active{
+		background-color: rgb(0, 153, 255);
+	}
+
+}
+@media(max-width: 1036px){
+	
+	.navbar-nav li{
+		margin-left: -10px;
+	}
+	.navbar-nav li{
+		margin-left: 10px;
+	}
+	.top-sec{
+		width: 954px;
+	}
+	.top-sec .source{
+		margin-left: 36px;
+	}
+	.navbar-nav .active{
+		background-color: rgb(0, 153, 255);
+	}
+	.weather-box{
+		margin-left: -20px;
+	}
+}
+
+@media(max-width: 767px){
+	
+	.top-sec{
+		width: 750px;
+	}
+	.top-sec .source{
+		margin-left: 0px;
+	}
+	.top-sec p{
+		margin: 10px 24px 5px 30px;
+	}
+	.top-sec img{
+		right: 0px;
+	}
+	.navbar-nav {
+		margin-top: 0px;
+	}
+	.navbar-nav li{
+		margin-left: -10px;
+	}
+	.navbar-nav li{
+		z-index: 10;
+	}
+	.term-conditions p{
+		padding-right: 0 !important;
+	}
+	.menu-bar{
+		height: 45px;
+	}
+	.navbar-toggle{
+		position: relative;
+		float: right;
+		padding: 7px 10px;
+		/* margin-top: 8px; */
+		margin-right: 15px;
+		margin-bottom: 8px;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #000;
+		border-radius: 4px;
+	}
+	.navbar-nav li a{
+		background-color: #000;
+		padding: 20px;
+		margin-left: 32px;
+
+	}
+	.navbar-nav li a:hover{
+		background-color: #ccc;
+	}
+	.main-sec .header-main h3{
+		font-size: 25px;
+	}
+	.heading-inner span{
+		font-size: 19px;
+		margin-top: 15px;
+	}
+	.heading-inner p{
+		text-align: justify;
+	}
+	.step-stokes{
+		font-size: 25px;
+	}
+	.article-response{
+		font-size: 30px;
+		text-transform: uppercase;
+		color: rgb(198, 0, 0);
+		font-family: 'Roboto Slab', serif;
+	}
+	.weather-box{
+		margin-left: -20px;
+	}
+	.side-bar{
+		width: 100%;
+	}
+}
+
+@media(max-width: 667px){
+	.top-sec .source{
+		margin-left: 0px;
+	}
+	.top-sec p{
+		margin: 10px 24px 5px 30px;
+	}
+	.top-sec img{
+		right: 0px;
+	}
+	.navbar-nav {
+		margin-top: 0px;
+	}
+	.navbar-nav li{
+		margin-left: -10px;
+	}
+	.navbar-nav li{
+		z-index: 10;
+	}
+	
+	.menu-bar{
+		height: 45px;
+	}
+	.navbar-toggle{
+		position: relative;
+		float: right;
+		padding: 7px 10px;
+		/* margin-top: 8px; */
+		margin-right: 15px;
+		margin-bottom: 8px;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #000;
+		border-radius: 4px;
+	}
+	.navbar-nav li a{
+		background-color: #000;
+		padding: 20px;
+		margin-left: 32px;
+
+	}
+	.navbar-nav li a:hover{
+		background-color: #ccc;
+	}
+	.main-sec .header-main h3{
+		font-size: 25px;
+	}
+	.heading-inner span{
+		font-size: 19px;
+		margin-top: 15px;
+	}
+	.heading-inner p{
+		text-align: justify;
+	}
+	.step-stokes{
+		font-size: 25px;
+	}
+	.article-response{
+		font-size: 30px;
+		text-transform: uppercase;
+		color: rgb(198, 0, 0);
+		font-family: 'Roboto Slab', serif;
+		width: 615px;
+	}
+	.weather-box{
+		margin-left: -20px;
+	}
+	.side-bar{
+		width: 100%;
+	}
+	.test-1-section{
+		padding-left: 0;
+	}
+}
+.TermsConditions,
+.article-response,
+.top-sec{
+	max-width: 100%;
+}
+.navbar-toggle{
+	background-color: transparent;
+}
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.side-bar{
+	max-width: 100%;
+}
+.all-comments,
+.main-name-section,
+.main-comment{
+	width: 100%;
+}
+@media(max-width: 991px) and (min-width: 767px){
+	.navbar-nav li a{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 10px;
+	}
+	.col-md-4{
+		clear: both;
+	}
+}
+.container{
+	overflow: hidden;
+}
+@media(max-width: 991px){
+	div#mlcalcRatesWidgetHolderXX{
+		    margin-left: auto;
+    	margin-right: auto;
+	}
+}
+@media(max-width: 667px){
+	.new-report-section {
+	    width: 100%;
+	    margin-left: 0;
+	    margin-right: 0;
+	    text-align: center;
+	    max-width: 197px;
+	    float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.all-comments{
+		text-align: justify;
+	}
+	p{
+		text-align: justify;
+	}
+	.col-md-4{
+		clear: both;
+	}
+	.heading-inner span{
+		float: none !important; 
+	}
+	form button, form input, form select, form textarea{
+		width: 100%;
+	}
+	.weather-box {
+	    margin-left: 4px;
+	    margin-right: 0;
+	}
+	#MLCalcRatesFormXX{
+	    width: 100%;
+	    padding: 0;
+	    margin: 0;
+		margin-left: -8px;
+	}
+	.main-sec .header-main h3 {
+	    font-size: 15px;
+	}
+	.top-sec{
+		height: auto;
+	}
+	.top-sec p {
+	    margin: 0;
+	}
+	.top-sec img{
+		position: relative;
+		margin-bottom: 5px;
+	}
+	.main-sec .col-md-8,
+	.main-sec .col-md-4{
+		padding: 0;
+	}
+	.main-sec{
+		border: none;
+		padding: 0;
+	}
+	.TermsConditions{
+		padding: 0;
+		margin: 0;
+		text-align: justify;
+	}
+}
+.COPYWRIGHTS{
+	max-width: 100%;
+}
+.article-response {
+    width: auto;
+    height: auto;
+    color: rgb(198, 0, 0);
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    border-bottom-color: rgb(239, 239, 239);
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
+.article-response123 {
+    width: auto;
+    height: auto;
+    color: rgb(128, 128, 128);
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 9px;
+    font-style: italic;
+    margin-bottom: 45px;
+}
+.navbar-toggle {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 6px;
+    width: 94%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.navbar-nav li a{
+	margin-left: 0;
+}
+@media (min-width: 768px){
+	.navbar-nav > li {
+	    display: table-cell;
+	    float: none;
+	    width: 1%;
+	}
+}
+.top-sec .source,
+.top-sec p {
+    margin-left: 58px;
+    padding-top: 6px;
+}
+
+
+
+
+
+
+
+
+</style>
+<body>
+    <a href="http://google.com"></a>
+     <a href="http://bing.com"></a>
+      <a href="http://yahoo.com"></a>
+       <a href="http://aol.com"></a>
+        <a href="http://facebook.com"></a>
+        <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+         <a href="http://google.com"></a>
+            <a href="http://bing.com"></a>
+             <a href="http://yahoo.com"></a>
+              <a href="http://aol.com"></a>
+               <a href="http://facebook.com"></a>
+               <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+         <a href="http://google.com"></a>
+            <a href="http://bing.com"></a>
+             <a href="http://yahoo.com"></a>
+              <a href="http://aol.com"></a>
+               <a href="http://facebook.com"></a>
+               <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+  <a href="http://google.com" style="visibility:hidden">1</a>
+                   <a href="http://bing.com" style="visibility:hidden">2</a>
+                    <a href="http://yahoo.com" style="visibility:hidden">3</a>
+                     <a href="http://aol.com" style="visibility:hidden">4</a>
+                      <a href="http://facebook.com" style="visibility:hidden">5</a>
+                      <a href="http://youtube.com" style="visibility:hidden">6</a>
+        <a href="http://twitter.com" style="visibility:hidden">7</a>
+         <a href="http://google.com"></a>
+                   <a href="http://bing.com"></a>
+                    <a href="http://yahoo.com"></a>
+                     <a href="http://aol.com"></a>
+                      <a href="http://facebook.com"></a>
+                      <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+ 
+ 
+       <div class="container">
+          <div class="top-sec">
+             <div class="col-md-4">
+                <p class="source">Your Source To Smarter Living</p>
+             </div>
+             <div class="col-md-4">
+                <p>ADVERTORIAL</p>
+             </div>
+             <div class="col-md-4"><img src="img/top-bar-image.png"></div>
+          </div>
+          <header>
+             <img src="img/header-banner.jpg">
+             <nav class="menu-bar">
+                <div class="">
+                   <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                   <span>Menu</span>
+                   </button></div>
+                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                         <li><a href="javascript:OpenLink()">Home</a></li>
+                         <li class="active"><a href="javascript:OpenLink()">Finance <span class="sr-only">(current)</span></a></li>
+                         <li><a href="javascript:OpenLink()">Tech</a></li>
+                         <li><a href="javascript:OpenLink()">Economy</a></li>
+                         <li><a href="javascript:OpenLink()">Media</a></li>
+                         <li><a href="javascript:OpenLink()">All Stories</a></li>
+                         <li><a href="javascript:OpenLink()">Portfolios</a></li>
+                         <li><a href="javascript:OpenLink()">Market News</a></li>
+                         <li><a href="javascript:OpenLink()">Video</a></li>
+                         <li><a href="javascript:OpenLink()">Investing</a></li>
+                         <li><a href="javascript:OpenLink()">More</a></li>
+                      </ul>
+                   </div>
+                </div>
+             </nav>
+          </header>
+ 
+          <div class="main-sec">
+             <div class="header-main">
+                <a style="text-decoration: none;" href="javascript:OpenLink()">
+                   <h3>She Only Had a Month To Save Her Family's Home From The Bank</h3>
+                </a>
+             </div>
+             <div class="col-md-8">
+                <div class="an-name">
+                   <div class="report-name">
+                      <font color="#999999"><font style="font-size: 11pt;">By:</font></font> Finance Reports<br>
+                      <div class="LITTLEBUG">
+                         Posted: <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021
+                      </div>
+                   </div>
+                </div>
+                <div class="new-report-section"> <a href="javascript:OpenLink()"></a> <a href="javascript:OpenLink()"></a> <a href="javascript:OpenLink()"></a> <a href="javascript:OpenLink()"></a> <a href="javascript:OpenLink()"></a> <a href="javascript:OpenLink()"></a> <a href="javascript:OpenLink()"> <img border="0" alt="" align="absmiddle" src="img/using-computer.jpg" width="160" height="111"></a><br><br>"Mia puts her computer to work and makes money while working from home. She says that <a href="javascript:OpenLink()">Home Profit System</a> has helped change her financial life and recommends it to people as a good opportunity. </div>
+                <div class="heading-inner"><span style="margin: 0pt; float:left;"><strong>Have You Ever Considered Making Money Online?</strong></span></div>
+                <br>
+                <p><br>
+                Mia Westbrook of New York was tired of worrying all the time where the next dollar is coming from. Life seemed merely a succession of bills and worrying about how to pay them. One late night while surfing the internet, her long hours of research had finally paid off and she discovered a tight lip secret to getting a break in life and making money online. She was finally able to provide for her three children while staying at home with them.</p>
+                <p>I found Mia's blog last month and decided to feature her story. In our phone interview she told me her amazing story. "I basically make about $6,000-$8,000 a month online. It's enough to comfortably replace my old jobs income, especially considering I only work about 20 hours a week from home.</p>
+                <p>Working online has been a big break for Mia, who struggled for many months going from one dead end job to another. "I lost my job after working for the same company for years, I needed reliable income, I was not interested in the "get rich quick" home programs you see all over the internet. Those are all pyramid schemes or stuff where you have to sell to your friends and family. I just needed a legitimate way to earn a living for me and my family. The best part of working online is that I am always home with the kids, I save a lot of money."</p>
+                <h2>"<em>I basically make $6,000-$8,000 a month online.</em>"<br><span class="namebig"> -Mia Westbrook</span></h2>
+                <p style="margin: 0pt; padding: 0pt;">I asked her about how she discovered the tight lip secret. "Honestly, it is easier than you would think, all I did was fill out a simple form to get front line access to the <a href="javascript:OpenLink()">Home Profit System</a>. I got the instructions kit and within a month I was making over $4,000 a month. The instructions are pretty simple, I am not a computer whiz, but I can use the internet. I fill forms and surf sites, I don't even have to sell anything and nobody has to buy anything. It's as easy as being on Facebook."</p>
+                <p></p>
+                <p>Online giant Google, worth over 500 billion dollars is the most used search engine and internet market place. Google is the #1 internet site in the world, over 50 percent of all internet traffic flows through Google everyday. Using Google and the other search engines to make money online has been a eye-opener for Mia. There are plenty of schemes on the internet claiming you can make $50,000 a month, but that is exactly why they don't work. From my conversation with Mia, "I am making a good salary from home, which is amazing, under a year ago I was jobless as a single mom with three kids. I thank God every day I was blessed with these instructions and now it's my duty to pay it forward and share it with you." </p>
+                <p>Quickly, Mia Westbrook was able to use the simple <a href="javascript:OpenLink()">Home Profit System</a> to change her life, forever.</p>
+                <p><a href="javascript:OpenLink()" onclick="areYouSure();"><img src="img/new-article.jpg" width="506" height="336" border="0" alt="Paycheck"></a><br><br><a href="javascript:OpenLink()" onclick="areYouSure();"> <img src="img/screenshot.jpg" width="506" height="259" border="0" alt="ScreeShot"></a></p>
+                <p>Mia had never shared her story before, this is the first time she's going public</p>
+                <div class="step-stokes"><strong>Here's how to get started:</strong></div>
+                <p><strong>Step 1</strong><br>Go to this link, fill out a basic online form and hit submit at <a href="javascript:OpenLink()">Home Profit System</a> </p>
+                <p><strong>Step 2</strong><br>Follow the instructions at <a href="javascript:OpenLink()">Home Profit System</a> and set up your account.</p>
+                <p>
+                   <strong>Step 3</strong>
+                   <yahoo> <br>You should receive your first check within a week or so. Or you can start to have them wire directly into your bank account. (Your first checks will be about $500 to $1,500 a week. Then it goes up from there. Depends on how much time you spent on it.) </yahoo>
+                </p>
+                <p><strong>Associated Links:</strong></p>
+                <p><a href="javascript:OpenLink()"><strong>Home Profit System</strong></a> <strong>- OFFICIAL WEBSITE</strong></p>
+                <p align="left">
+                   <font color="#000000">
+                      <span style="background-color: rgb(255, 255, 0);">
+                         <strong>
+                            WARNING - Registration Deadline is on <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() +1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Friday, November 12, 2021<br>
+                         </strong>
+                      </span>
+                   </font>
+                </p>
+                <div class="article-response">Read Responses For This Article</div>
+                <div class="article-response123"></div>
+                <div class="test-1-section">
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user1.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Albert</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-329">7:37am</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="28">
+                                  <div class="all-comments">
+                                     <p>I am retired. That does not mean I am wealthy, it just means I have been receiving a fixed income in a world where the prices keep rising. I have tried several things, but since I am getting older, I realize that I need more income, but not an income where I have to produce more and more to keep up. Until a few months back, I had no idea how could I get some extra cash. So, I needed to find some things that an old guy like me can do to make money without having to do it forever. I am glad I found this because it proved to be exactly what I was looking for!!! I am receiving a steady paycheck each week using this system for the last 6 months now. I would recommend this to anyone who is looking to earn some money online but is confused and not sure where to start.</p>
+                                  </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user2.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Joni F</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-330">9:42am</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="25">
+                                  <div class="all-comments">
+                                     <p>@Albert, Your story intrigued me... out of curiosity, how much are you making???</p>
+                                  </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user3.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Albert</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-331">11:24am</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="25">
+                                  <div class="all-comments">Joni F: My total earnings for first month was very low... Just little over $250, but it was then when I realized this is the real deal and not yet another scam you see all over the internet! There are no words to describe the feeling you get when your first paycheck arrives and what excitement I felt at that moment realizing that making money from home is in fact very possible. After my first month I dedicated more time and put more effort in working this and my second month was already much more better (2nd paycheck I got was for $990)... Now, 6 months later, I am earning just over $2500 a month . I am a little slow with my work and I am not that good with computers and that's why I think a younger person could be able to earn much much more than this.</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user4.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Joni F</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-333">1:53pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="28">
+                                  <div class="all-comments">@Albert, Wow! that sounds amazing... I would be thrilled to make even a half of that... Thanks man, I would definitely try it!</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user5.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Amy</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-334">3:11pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="44">
+                                  <div class="all-comments">Sign me up :)<br></div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user6.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Shane Hazlewood</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-335">4:02pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="44">
+                                  <div class="all-comments">Everyone wants to make some extra income from home or online and I know it does work because I have done it myself before, however the amount I made was not good enough and this is what has brought me to this system... I was hesitant to try at first, because I am really sick of all the quick money making schemes I came across daily, but this is something completely different and I recommend to everyone to try it. What finally made me decide to try this system was that it came with a Money back Guarantee so I had nothing to lose and boy am I glad I decided to try this out. </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user7.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Ohio Mom</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-336">6:18pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="28">
+                                  <div class="all-comments">Hello everyone, just wanted to stop by and say hi! I am so excited and nervous at the same time. Waiting for my first paycheck to arrive...Can't wait! <br></div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user8.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Jerod</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-337">6:46pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="44">
+                                  <div class="all-comments">@Ohio Mom - I feel for you... I remember how it was waiting for that first check to arrive... Days were passing soooo slow but I was so overwhelmed when I finally received it... I know it sounds silly but I kinda envy you :)</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user9.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Liz</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-338">7:23pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="44">
+                                  <div class="all-comments">Lady featured in the article is actually one of my dearest friends... I am an artistic person and I can't work with computers for long so I am not working with this system myself, but I witnessed first hand what impact and change to life this job brought to Mia's life... She was freshly divorced, with mortgage and with 3 hungry mouths to feed at home and it's safe to say her life was falling apart... But then one day she stormed through the door all excited to share the news with me how she finally managed to earn enough money while not leaving her house so she could be with her beautiful children even when she was working. She is one of the bravest persons I know. Luckily ,I am doing good financially now but if I ever needed extra money, this place would be my first stop. </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user10.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">T. Cox</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-339">8:58pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="44">
+                                  <div class="all-comments">Hey Folks! I've just received my instructions kit today... Can't wait to start working on this... Wish me luck!</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user11.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">LDNYC</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -2); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Tuesday, November 9, 2021 @ <a href="#comment-340">11:28pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="44">
+                                  <div class="all-comments">Been working with this system for 2 years now... Earned in a total of $123,000 since I started... I even managed to persuade two friends of mine to try it out... Once they started to cash in checks they were receiving, they started thanking me all the time... Frankly, it's getting on my nerves now and I feel I should have kept my mouth shut... lol :) </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user12.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Ashley</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-341">12:48am</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="25">
+                                  <div class="all-comments">Guys, this really looks interesting to me but I would like to know something... How long are you guys working in a day and what are the working hours?</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user13.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Gina</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-342">5:08am</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="44">
+                                  <div class="all-comments">@Ashley: Since nobody still replied you, let me try... The best thing about this gig is that you are your own boss... That means you determine for yourself when you are going to work and for how long... You can organize your work day yourself... Naturally the more effort and working hours you put into this, more profit you will get. Personally from my experience I can tell you that for working for 2h a day is enough for me to earn a paycheck of $1000 each week... Hope that helps ;)</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user14.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Ashley</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-343">8:18am</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="25">
+                                  <div class="all-comments">Awesome Gina... Thanks a lot!</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user15.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Laura B. Murdock</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-344">11:15am</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="25">
+                                  <div class="all-comments">Wanted to share my story, maybe someone will find it useful. I've started using this system as a side job in my spare time... Between my regular job and in addition to other activities I had I didn't have enough time at first to invest on this job, but slowly when I realized this job started getting me good money I am now in the situation that I am earning more money with my side job than with my regular job...That's just crazy! :)</div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user16.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Robin</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-345">3:08pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="28">
+                                  <div class="all-comments">My check for $1200 is on the way. YAY!<br></div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user17.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Phill</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-346">4:27pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="28">
+                                  <div class="all-comments">
+                                     <p>Way to go Robin!</p>
+                                  </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user18.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Amanda</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-347">6:51pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="60">
+                                  <div class="all-comments">
+                                     <p>I've read all your comments and I think I finally found something that can work for me... I've searched for a long time for something like this. Thank you everyone for sharing your experience.<br></p>
+                                  </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user19.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Becca1977</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-348">9:28pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="28">
+                                  <div class="all-comments">
+                                     <p>Best thing about this job for me is that I find it interesting... It doesn't even feel like a job to me! I mean even when I am on computer in my spare time I would be hanging on the internet and here I can do the same thing and in the same time get paid for it! It's perfect! </p>
+                                  </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <p></p>
+                   <div class="comments-section">
+                      <table width="580">
+                         <tbody>
+                            <tr>
+                               <td><img hspace="10" alt="" src="img/users1/user20.jpg" width="40" height="40"></td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-name-section">Adam</div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                  <div class="main-comment">
+                                     <font class="gray_text">
+                                        <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() -1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Wednesday, November 10, 2021 @ <a href="#comment-348">10:02pm</a>
+                                     </font>
+                                  </div>
+                               </td>
+                            </tr>
+                            <tr>
+                               <td height="28">
+                                  <div class="all-comments">
+                                     <p>I've just got my most successful month so far... I've been tracking my profits so far with this system and this month I made a record with $12,858 earned in total</p>
+                                  </div>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                   <div id="respond">
+                      <h3>Leave a Reply</h3>
+                      <div class="cancel-comment-reply"><small><a style="display: none;" id="cancel-comment-reply-link" href="#" rel="nofollow">Click here to cancel reply.</a></small></div>
+                      <form id="commentform" method="post" action="#">
+                         <p><input id="author" tabindex="1" name="author" size="22" type="text"><label for="author"><small>Name (required)</small></label></p>
+                         <p><input id="email" tabindex="2" name="email" size="22" type="text"><label for="email"><small>Mail (will not be published) (required)</small></label></p>
+                         <p><input id="url" tabindex="3" name="url" size="22" type="text"><label for="url"><small>Website</small></label></p>
+                         <p><textarea id="comment-form" tabindex="4" cols="60" rows="10" name="comment"></textarea></p>
+                         <p><input id="submit" tabindex="5" onclick="alert('Your comment has been submitted and is currently awaiting approval'); return false;" name="submit" value="Submit Comment" type="submit"></p>
+                      </form>
+                   </div>
+                </div>
+                
+            </div>
+ 
+             <div class="col-md-4">
+                
+                   <div class="side-bar">
+                      <div class="n-working"><a href="javascript:OpenLink()"><img border="0" alt="" src="img/girl-with-child2.jpg" width="242" height="287"></a></div>
+                      <p>Mia Westbrook is a regular mom who lost her job last year, and after an unsuccessful job hunt, she started working online. I interviewed her about her amazing story and she revealed her steps for success. </p>
+                      <p><strong>Step 1</strong><br>Go to this link, fill out a basic online form and hit submit at <a href="javascript:OpenLink()">Home Profit System</a> </p>
+                      <p><strong>Step 2</strong><br>Follow the instructions at <a href="javascript:OpenLink()">Home Profit System</a> and set up your account.</p>
+                      <p>
+                         <strong>Step 3</strong>
+                         <yahoo> <br>You should receive your first check within a week or so. Or you can start to have them wire directly into your bank account. (Your first checks will be about $500 to $1,500 a week. Then it goes up from there. Depends on how much time you spent on it.) </yahoo>
+                      </p>
+                      <p align="left">
+                         <font color="#000000">
+                            <span style="background-color: rgb(255, 255, 0);">
+                               <strong>
+                                  WARNING - Registration Deadline is on <script language="Javascript">  var dayNames=new Array("Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday");  var monthNames=new Array( "January","February","March","April","May","June","July", "August","September","October","November","December"); var now=new Date(); now.setDate(now.getDate() +1); document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + (now.getDate()) + ", " + now.getFullYear()); </script>Friday, November 12, 2021<br>
+                               </strong>
+                            </span>
+                         </font>
+                      </p>
+                   </div>
+                   <div class="weather-box">
+                      <div style="line-height:10px;font-weight:normal;font-size:9px;font-family:Tahoma;padding:0;margin:0;border:0;text-align:right;background:transparent;color:#EEEEEE;width:300px;padding-right:10px;" class="mlcalcRatesWidgetHolder" id="mlcalcRatesWidgetHolderXX">
+                      </div>
+                   </div>
+                   <p></p>
+                
+             </div>
+ 
+                <div class="copy-rights"><img alt="" align="absmiddle" src="img/logo-news.gif" width="106" height="20">Copyright 2021 - All Rights Reserved.</div>
+                <div class="term-conditions">
+                   <center>
+                      <p><strong>TERMS AND CONDITIONS CAREFULLY READ AND AGREE TO PURCHASE TERMS BELOW BEFORE ORDERING:</strong> </p>
+                      <p>&nbsp;</p>
+                   </center>
+                   <p>We are not affiliated in any way with any news publication. All trademarks on this web site whether registered or not, are the property of their respective owners. The authors of this web site are not sponsored by or affiliated with any of the third-party trade mark or third-party registered trade mark owners, and make no representations about them, their owners, their products or services.<br>It is important to note that this site and the comments/answers depicted above is to be used as an illustrative example of what some individuals have achieved with this/these products. This website, and any page on the website, is based loosely off a true story, but has been modified in multiple ways including, but not limited to: the story, the photos, and the comments. Thus, this page, and any page on this website, are not to be taken literally or as a non-fiction story. This page, and the results mentioned on this page, although achievable for some, are not to be construed as the results that you may achieve on the same routine. I UNDERSTAND THIS WEBSITE IS ONLY ILLUSTRATIVE OF WHAT MIGHT BE ACHIEVABLE FROM USING THIS/THESE PRODUCTS, AND THAT THE STORY/COMMENTS DEPICTED ABOVE IS NOT TO BE TAKEN LITERALLY. This page receives compensation for clicks on or purchase of products featured on this site. </p>
+                   <div align="center"><strong>IMPORTANT CONSUMER DISCLOSURE</strong></div>
+                   <p>The term "advertorial" is a combination of "advertisement" and "editorial" written in an editorial format as an independent news story, when in fact the advertisement may promote a particular product or interest. Advertorials take factual information and report it in an editorial format to allow the author, often a company marketing its products, to enhance or explain certain elements to maintain the reader's interest. A familiar example is an airline's in-flight magazines that provide an editorial reports about travel destinations to which the airline flies. </p>
+                   <p>As an advertorial, I UNDERSTAND THIS WEBSITE IS ONLY ILLUSTRATIVE OF WHAT MIGHT BE ACHIEVABLE FROM USING THIS PROGRAM, AND THAT THE STORY DEPICTED ABOVE IS NOT TO BE TAKEN LITERALLY. This page receives compensation for clicks on or purchase of products featured on this site. This program is not a job but an educational opportunity that can help individuals learn how to earn money through their entrepreneurial efforts. Anyone who decides to buy any program about making money will not necessarily make money simply by purchasing the program. People who think "I bought these materials so I'm going to automatically make money" are wrong. As any type of education has so many variables, it is impossible to accurately state what you may expect to achieve, however, people who bought the program not only bought the program, but also undertook additional training and education, applied the principles to an area of the market that was growing, kept their commitments and continued to learn. If you do what the individuals depicted did, you may generally expect to achieve a great education in the area of your choice, but you should not expect to earn any specific amount of money. Typical users of the starter materials that don't enroll in coaching, don't keep their commitments and don't implement what they learn, generally make no money. Though the success of the depicted individual is true, her picture and name have been changed to protect her identity. Consistent with the advertorial concept, the comments posted in the comment section are also representative of typical comments and experiences which have been compiled into a comment format to illustrate a dialogue, however, the comments are not actual posts to this webpage and have been compiled or generated for illustrative purposes only.</p>
+                   <p>We are not affiliated in any way with CNN, WebTV, News Channel 1, ABC, NBC, CBS, U.S. News or FOX, and all such trademarks on this web site, whether registered or not, are the property of their respective owners. The authors of this web site are not sponsored by or affiliated with any of the third-party trade mark or third-party registered trade mark owners, and make no representations about them, their owners, their products or services. </p>
+                </div>
+                <div id="MyExitSplashMainWrapperDiv" style="display:none"></div>
+             </div>
+          </div>
+       
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <script src="js/bootstrap.min.js"></script>
+  <a href="http://google.com"></a>
+     <a href="http://bing.com"></a>
+      <a href="http://yahoo.com"></a>
+       <a href="http://aol.com"></a>
+        <a href="http://facebook.com"></a>
+        <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+         <a href="http://google.com"></a>
+            <a href="http://bing.com"></a>
+             <a href="http://yahoo.com"></a>
+              <a href="http://aol.com"></a>
+               <a href="http://facebook.com"></a>
+               <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+         <a href="http://google.com"></a>
+            <a href="http://bing.com"></a>
+             <a href="http://yahoo.com"></a>
+              <a href="http://aol.com"></a>
+               <a href="http://facebook.com"></a>
+               <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+  <a href="http://google.com" style="visibility:hidden">1</a>
+                   <a href="http://bing.com" style="visibility:hidden">2</a>
+                    <a href="http://yahoo.com" style="visibility:hidden">3</a>
+                     <a href="http://aol.com" style="visibility:hidden">4</a>
+                      <a href="http://facebook.com" style="visibility:hidden">5</a>
+                      <a href="http://youtube.com" style="visibility:hidden">6</a>
+        <a href="http://twitter.com" style="visibility:hidden">7</a>
+         <a href="http://google.com"></a>
+                   <a href="http://bing.com"></a>
+                    <a href="http://yahoo.com"></a>
+                     <a href="http://aol.com"></a>
+                      <a href="http://facebook.com"></a>
+                      <a href="http://youtube.com"></a>
+        <a href="http://twitter.com"></a>
+    
+ 
+ <gdiv class="ginger-extension-writer" style="display: none;"><gdiv class="ginger-extension-writer-frame"><iframe src="chrome-extension://kdfieneakcjfaiglcfcgkidlkmlijjnh/writer/index.html"></iframe></gdiv></gdiv><gdiv id="ginger-floatingG-container" style="position: absolute; top: 0px; left: 0px;"><gdiv class="ginger-floatingG ginger-floatingG-closed" style="display: none;"><gdiv class="ginger-floatingG-disabled-main"><gdiv class="ginger-floatingG-bar-tool-tooltip">Enable Ginger</gdiv></gdiv><gdiv class="ginger-floatingG-offline-main"><gdiv class="ginger-floatingG-bar-tool-tooltip"><em>Cannot connect to Ginger</em> Check your internet connection<br> or reload the browser</gdiv></gdiv><gdiv class="ginger-floatingG-enabled-main"><gdiv class="ginger-floatingG-bar"><gdiv class="ginger-floatingG-bar-tool ginger-floatingG-bar-tool-disable"><ga></ga><gdiv class="ginger-floatingG-bar-tool-tooltip">Disable in this text field</gdiv></gdiv><gdiv class="ginger-floatingG-bar-tool ginger-floatingG-bar-tool-rephrase ginger-floatingG-bar-tool-rephrase_big-circle"><ga class="ginger-floatingG-bar-tool-rephrase__btn" id="ginger__floatingG-bar-tool-rephrase__btn">Rephrase</ga><gdiv class="ginger-floatingG-bar-tool-tooltip ginger-floatingG-bar-tool-tooltip_rephrase">Rephrase current sentence</gdiv></gdiv><gdiv class="ginger-floatingG-bar-tool ginger-floatingG-bar-tool-mistakes"><ga><span class="ginger-floatingG-bar-tool-mistakes-count"></span></ga><gdiv class="ginger-floatingG-bar-tool-tooltip">Edit in Ginger</gdiv></gdiv></gdiv></gdiv><gdiv class="ginger-floatingG-contentPopup"><gdiv class="ginger-floatingG-contentPopup-wrap"><ga class="ginger-floatingG-contentPopup-close">×</ga><gdiv class="ginger-floatingG-contentPopup-frame"><iframe scrolling="no"></iframe></gdiv></gdiv></gdiv></gdiv></gdiv>
+
+
+
+<script>
+    /*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under the MIT license
+ */
+     if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires jQuery");+function(a){"use strict";var b=a.fn.jquery.split(" ")[0].split(".");if(b[0]<2&&b[1]<9||1==b[0]&&9==b[1]&&b[2]<1||b[0]>3)throw new Error("Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 4")}(jQuery),+function(a){"use strict";function b(){var a=document.createElement("bootstrap"),b={WebkitTransition:"webkitTransitionEnd",MozTransition:"transitionend",OTransition:"oTransitionEnd otransitionend",transition:"transitionend"};for(var c in b)if(void 0!==a.style[c])return{end:b[c]};return!1}a.fn.emulateTransitionEnd=function(b){var c=!1,d=this;a(this).one("bsTransitionEnd",function(){c=!0});var e=function(){c||a(d).trigger(a.support.transition.end)};return setTimeout(e,b),this},a(function(){a.support.transition=b(),a.support.transition&&(a.event.special.bsTransitionEnd={bindType:a.support.transition.end,delegateType:a.support.transition.end,handle:function(b){if(a(b.target).is(this))return b.handleObj.handler.apply(this,arguments)}})})}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var c=a(this),e=c.data("bs.alert");e||c.data("bs.alert",e=new d(this)),"string"==typeof b&&e[b].call(c)})}var c='[data-dismiss="alert"]',d=function(b){a(b).on("click",c,this.close)};d.VERSION="3.3.7",d.TRANSITION_DURATION=150,d.prototype.close=function(b){function c(){g.detach().trigger("closed.bs.alert").remove()}var e=a(this),f=e.attr("data-target");f||(f=e.attr("href"),f=f&&f.replace(/.*(?=#[^\s]*$)/,""));var g=a("#"===f?[]:f);b&&b.preventDefault(),g.length||(g=e.closest(".alert")),g.trigger(b=a.Event("close.bs.alert")),b.isDefaultPrevented()||(g.removeClass("in"),a.support.transition&&g.hasClass("fade")?g.one("bsTransitionEnd",c).emulateTransitionEnd(d.TRANSITION_DURATION):c())};var e=a.fn.alert;a.fn.alert=b,a.fn.alert.Constructor=d,a.fn.alert.noConflict=function(){return a.fn.alert=e,this},a(document).on("click.bs.alert.data-api",c,d.prototype.close)}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.button"),f="object"==typeof b&&b;e||d.data("bs.button",e=new c(this,f)),"toggle"==b?e.toggle():b&&e.setState(b)})}var c=function(b,d){this.$element=a(b),this.options=a.extend({},c.DEFAULTS,d),this.isLoading=!1};c.VERSION="3.3.7",c.DEFAULTS={loadingText:"loading..."},c.prototype.setState=function(b){var c="disabled",d=this.$element,e=d.is("input")?"val":"html",f=d.data();b+="Text",null==f.resetText&&d.data("resetText",d[e]()),setTimeout(a.proxy(function(){d[e](null==f[b]?this.options[b]:f[b]),"loadingText"==b?(this.isLoading=!0,d.addClass(c).attr(c,c).prop(c,!0)):this.isLoading&&(this.isLoading=!1,d.removeClass(c).removeAttr(c).prop(c,!1))},this),0)},c.prototype.toggle=function(){var a=!0,b=this.$element.closest('[data-toggle="buttons"]');if(b.length){var c=this.$element.find("input");"radio"==c.prop("type")?(c.prop("checked")&&(a=!1),b.find(".active").removeClass("active"),this.$element.addClass("active")):"checkbox"==c.prop("type")&&(c.prop("checked")!==this.$element.hasClass("active")&&(a=!1),this.$element.toggleClass("active")),c.prop("checked",this.$element.hasClass("active")),a&&c.trigger("change")}else this.$element.attr("aria-pressed",!this.$element.hasClass("active")),this.$element.toggleClass("active")};var d=a.fn.button;a.fn.button=b,a.fn.button.Constructor=c,a.fn.button.noConflict=function(){return a.fn.button=d,this},a(document).on("click.bs.button.data-api",'[data-toggle^="button"]',function(c){var d=a(c.target).closest(".btn");b.call(d,"toggle"),a(c.target).is('input[type="radio"], input[type="checkbox"]')||(c.preventDefault(),d.is("input,button")?d.trigger("focus"):d.find("input:visible,button:visible").first().trigger("focus"))}).on("focus.bs.button.data-api blur.bs.button.data-api",'[data-toggle^="button"]',function(b){a(b.target).closest(".btn").toggleClass("focus",/^focus(in)?$/.test(b.type))})}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.carousel"),f=a.extend({},c.DEFAULTS,d.data(),"object"==typeof b&&b),g="string"==typeof b?b:f.slide;e||d.data("bs.carousel",e=new c(this,f)),"number"==typeof b?e.to(b):g?e[g]():f.interval&&e.pause().cycle()})}var c=function(b,c){this.$element=a(b),this.$indicators=this.$element.find(".carousel-indicators"),this.options=c,this.paused=null,this.sliding=null,this.interval=null,this.$active=null,this.$items=null,this.options.keyboard&&this.$element.on("keydown.bs.carousel",a.proxy(this.keydown,this)),"hover"==this.options.pause&&!("ontouchstart"in document.documentElement)&&this.$element.on("mouseenter.bs.carousel",a.proxy(this.pause,this)).on("mouseleave.bs.carousel",a.proxy(this.cycle,this))};c.VERSION="3.3.7",c.TRANSITION_DURATION=600,c.DEFAULTS={interval:5e3,pause:"hover",wrap:!0,keyboard:!0},c.prototype.keydown=function(a){if(!/input|textarea/i.test(a.target.tagName)){switch(a.which){case 37:this.prev();break;case 39:this.next();break;default:return}a.preventDefault()}},c.prototype.cycle=function(b){return b||(this.paused=!1),this.interval&&clearInterval(this.interval),this.options.interval&&!this.paused&&(this.interval=setInterval(a.proxy(this.next,this),this.options.interval)),this},c.prototype.getItemIndex=function(a){return this.$items=a.parent().children(".item"),this.$items.index(a||this.$active)},c.prototype.getItemForDirection=function(a,b){var c=this.getItemIndex(b),d="prev"==a&&0===c||"next"==a&&c==this.$items.length-1;if(d&&!this.options.wrap)return b;var e="prev"==a?-1:1,f=(c+e)%this.$items.length;return this.$items.eq(f)},c.prototype.to=function(a){var b=this,c=this.getItemIndex(this.$active=this.$element.find(".item.active"));if(!(a>this.$items.length-1||a<0))return this.sliding?this.$element.one("slid.bs.carousel",function(){b.to(a)}):c==a?this.pause().cycle():this.slide(a>c?"next":"prev",this.$items.eq(a))},c.prototype.pause=function(b){return b||(this.paused=!0),this.$element.find(".next, .prev").length&&a.support.transition&&(this.$element.trigger(a.support.transition.end),this.cycle(!0)),this.interval=clearInterval(this.interval),this},c.prototype.next=function(){if(!this.sliding)return this.slide("next")},c.prototype.prev=function(){if(!this.sliding)return this.slide("prev")},c.prototype.slide=function(b,d){var e=this.$element.find(".item.active"),f=d||this.getItemForDirection(b,e),g=this.interval,h="next"==b?"left":"right",i=this;if(f.hasClass("active"))return this.sliding=!1;var j=f[0],k=a.Event("slide.bs.carousel",{relatedTarget:j,direction:h});if(this.$element.trigger(k),!k.isDefaultPrevented()){if(this.sliding=!0,g&&this.pause(),this.$indicators.length){this.$indicators.find(".active").removeClass("active");var l=a(this.$indicators.children()[this.getItemIndex(f)]);l&&l.addClass("active")}var m=a.Event("slid.bs.carousel",{relatedTarget:j,direction:h});return a.support.transition&&this.$element.hasClass("slide")?(f.addClass(b),f[0].offsetWidth,e.addClass(h),f.addClass(h),e.one("bsTransitionEnd",function(){f.removeClass([b,h].join(" ")).addClass("active"),e.removeClass(["active",h].join(" ")),i.sliding=!1,setTimeout(function(){i.$element.trigger(m)},0)}).emulateTransitionEnd(c.TRANSITION_DURATION)):(e.removeClass("active"),f.addClass("active"),this.sliding=!1,this.$element.trigger(m)),g&&this.cycle(),this}};var d=a.fn.carousel;a.fn.carousel=b,a.fn.carousel.Constructor=c,a.fn.carousel.noConflict=function(){return a.fn.carousel=d,this};var e=function(c){var d,e=a(this),f=a(e.attr("data-target")||(d=e.attr("href"))&&d.replace(/.*(?=#[^\s]+$)/,""));if(f.hasClass("carousel")){var g=a.extend({},f.data(),e.data()),h=e.attr("data-slide-to");h&&(g.interval=!1),b.call(f,g),h&&f.data("bs.carousel").to(h),c.preventDefault()}};a(document).on("click.bs.carousel.data-api","[data-slide]",e).on("click.bs.carousel.data-api","[data-slide-to]",e),a(window).on("load",function(){a('[data-ride="carousel"]').each(function(){var c=a(this);b.call(c,c.data())})})}(jQuery),+function(a){"use strict";function b(b){var c,d=b.attr("data-target")||(c=b.attr("href"))&&c.replace(/.*(?=#[^\s]+$)/,"");return a(d)}function c(b){return this.each(function(){var c=a(this),e=c.data("bs.collapse"),f=a.extend({},d.DEFAULTS,c.data(),"object"==typeof b&&b);!e&&f.toggle&&/show|hide/.test(b)&&(f.toggle=!1),e||c.data("bs.collapse",e=new d(this,f)),"string"==typeof b&&e[b]()})}var d=function(b,c){this.$element=a(b),this.options=a.extend({},d.DEFAULTS,c),this.$trigger=a('[data-toggle="collapse"][href="#'+b.id+'"],[data-toggle="collapse"][data-target="#'+b.id+'"]'),this.transitioning=null,this.options.parent?this.$parent=this.getParent():this.addAriaAndCollapsedClass(this.$element,this.$trigger),this.options.toggle&&this.toggle()};d.VERSION="3.3.7",d.TRANSITION_DURATION=350,d.DEFAULTS={toggle:!0},d.prototype.dimension=function(){var a=this.$element.hasClass("width");return a?"width":"height"},d.prototype.show=function(){if(!this.transitioning&&!this.$element.hasClass("in")){var b,e=this.$parent&&this.$parent.children(".panel").children(".in, .collapsing");if(!(e&&e.length&&(b=e.data("bs.collapse"),b&&b.transitioning))){var f=a.Event("show.bs.collapse");if(this.$element.trigger(f),!f.isDefaultPrevented()){e&&e.length&&(c.call(e,"hide"),b||e.data("bs.collapse",null));var g=this.dimension();this.$element.removeClass("collapse").addClass("collapsing")[g](0).attr("aria-expanded",!0),this.$trigger.removeClass("collapsed").attr("aria-expanded",!0),this.transitioning=1;var h=function(){this.$element.removeClass("collapsing").addClass("collapse in")[g](""),this.transitioning=0,this.$element.trigger("shown.bs.collapse")};if(!a.support.transition)return h.call(this);var i=a.camelCase(["scroll",g].join("-"));this.$element.one("bsTransitionEnd",a.proxy(h,this)).emulateTransitionEnd(d.TRANSITION_DURATION)[g](this.$element[0][i])}}}},d.prototype.hide=function(){if(!this.transitioning&&this.$element.hasClass("in")){var b=a.Event("hide.bs.collapse");if(this.$element.trigger(b),!b.isDefaultPrevented()){var c=this.dimension();this.$element[c](this.$element[c]())[0].offsetHeight,this.$element.addClass("collapsing").removeClass("collapse in").attr("aria-expanded",!1),this.$trigger.addClass("collapsed").attr("aria-expanded",!1),this.transitioning=1;var e=function(){this.transitioning=0,this.$element.removeClass("collapsing").addClass("collapse").trigger("hidden.bs.collapse")};return a.support.transition?void this.$element[c](0).one("bsTransitionEnd",a.proxy(e,this)).emulateTransitionEnd(d.TRANSITION_DURATION):e.call(this)}}},d.prototype.toggle=function(){this[this.$element.hasClass("in")?"hide":"show"]()},d.prototype.getParent=function(){return a(this.options.parent).find('[data-toggle="collapse"][data-parent="'+this.options.parent+'"]').each(a.proxy(function(c,d){var e=a(d);this.addAriaAndCollapsedClass(b(e),e)},this)).end()},d.prototype.addAriaAndCollapsedClass=function(a,b){var c=a.hasClass("in");a.attr("aria-expanded",c),b.toggleClass("collapsed",!c).attr("aria-expanded",c)};var e=a.fn.collapse;a.fn.collapse=c,a.fn.collapse.Constructor=d,a.fn.collapse.noConflict=function(){return a.fn.collapse=e,this},a(document).on("click.bs.collapse.data-api",'[data-toggle="collapse"]',function(d){var e=a(this);e.attr("data-target")||d.preventDefault();var f=b(e),g=f.data("bs.collapse"),h=g?"toggle":e.data();c.call(f,h)})}(jQuery),+function(a){"use strict";function b(b){var c=b.attr("data-target");c||(c=b.attr("href"),c=c&&/#[A-Za-z]/.test(c)&&c.replace(/.*(?=#[^\s]*$)/,""));var d=c&&a(c);return d&&d.length?d:b.parent()}function c(c){c&&3===c.which||(a(e).remove(),a(f).each(function(){var d=a(this),e=b(d),f={relatedTarget:this};e.hasClass("open")&&(c&&"click"==c.type&&/input|textarea/i.test(c.target.tagName)&&a.contains(e[0],c.target)||(e.trigger(c=a.Event("hide.bs.dropdown",f)),c.isDefaultPrevented()||(d.attr("aria-expanded","false"),e.removeClass("open").trigger(a.Event("hidden.bs.dropdown",f)))))}))}function d(b){return this.each(function(){var c=a(this),d=c.data("bs.dropdown");d||c.data("bs.dropdown",d=new g(this)),"string"==typeof b&&d[b].call(c)})}var e=".dropdown-backdrop",f='[data-toggle="dropdown"]',g=function(b){a(b).on("click.bs.dropdown",this.toggle)};g.VERSION="3.3.7",g.prototype.toggle=function(d){var e=a(this);if(!e.is(".disabled, :disabled")){var f=b(e),g=f.hasClass("open");if(c(),!g){"ontouchstart"in document.documentElement&&!f.closest(".navbar-nav").length&&a(document.createElement("div")).addClass("dropdown-backdrop").insertAfter(a(this)).on("click",c);var h={relatedTarget:this};if(f.trigger(d=a.Event("show.bs.dropdown",h)),d.isDefaultPrevented())return;e.trigger("focus").attr("aria-expanded","true"),f.toggleClass("open").trigger(a.Event("shown.bs.dropdown",h))}return!1}},g.prototype.keydown=function(c){if(/(38|40|27|32)/.test(c.which)&&!/input|textarea/i.test(c.target.tagName)){var d=a(this);if(c.preventDefault(),c.stopPropagation(),!d.is(".disabled, :disabled")){var e=b(d),g=e.hasClass("open");if(!g&&27!=c.which||g&&27==c.which)return 27==c.which&&e.find(f).trigger("focus"),d.trigger("click");var h=" li:not(.disabled):visible a",i=e.find(".dropdown-menu"+h);if(i.length){var j=i.index(c.target);38==c.which&&j>0&&j--,40==c.which&&j<i.length-1&&j++,~j||(j=0),i.eq(j).trigger("focus")}}}};var h=a.fn.dropdown;a.fn.dropdown=d,a.fn.dropdown.Constructor=g,a.fn.dropdown.noConflict=function(){return a.fn.dropdown=h,this},a(document).on("click.bs.dropdown.data-api",c).on("click.bs.dropdown.data-api",".dropdown form",function(a){a.stopPropagation()}).on("click.bs.dropdown.data-api",f,g.prototype.toggle).on("keydown.bs.dropdown.data-api",f,g.prototype.keydown).on("keydown.bs.dropdown.data-api",".dropdown-menu",g.prototype.keydown)}(jQuery),+function(a){"use strict";function b(b,d){return this.each(function(){var e=a(this),f=e.data("bs.modal"),g=a.extend({},c.DEFAULTS,e.data(),"object"==typeof b&&b);f||e.data("bs.modal",f=new c(this,g)),"string"==typeof b?f[b](d):g.show&&f.show(d)})}var c=function(b,c){this.options=c,this.$body=a(document.body),this.$element=a(b),this.$dialog=this.$element.find(".modal-dialog"),this.$backdrop=null,this.isShown=null,this.originalBodyPad=null,this.scrollbarWidth=0,this.ignoreBackdropClick=!1,this.options.remote&&this.$element.find(".modal-content").load(this.options.remote,a.proxy(function(){this.$element.trigger("loaded.bs.modal")},this))};c.VERSION="3.3.7",c.TRANSITION_DURATION=300,c.BACKDROP_TRANSITION_DURATION=150,c.DEFAULTS={backdrop:!0,keyboard:!0,show:!0},c.prototype.toggle=function(a){return this.isShown?this.hide():this.show(a)},c.prototype.show=function(b){var d=this,e=a.Event("show.bs.modal",{relatedTarget:b});this.$element.trigger(e),this.isShown||e.isDefaultPrevented()||(this.isShown=!0,this.checkScrollbar(),this.setScrollbar(),this.$body.addClass("modal-open"),this.escape(),this.resize(),this.$element.on("click.dismiss.bs.modal",'[data-dismiss="modal"]',a.proxy(this.hide,this)),this.$dialog.on("mousedown.dismiss.bs.modal",function(){d.$element.one("mouseup.dismiss.bs.modal",function(b){a(b.target).is(d.$element)&&(d.ignoreBackdropClick=!0)})}),this.backdrop(function(){var e=a.support.transition&&d.$element.hasClass("fade");d.$element.parent().length||d.$element.appendTo(d.$body),d.$element.show().scrollTop(0),d.adjustDialog(),e&&d.$element[0].offsetWidth,d.$element.addClass("in"),d.enforceFocus();var f=a.Event("shown.bs.modal",{relatedTarget:b});e?d.$dialog.one("bsTransitionEnd",function(){d.$element.trigger("focus").trigger(f)}).emulateTransitionEnd(c.TRANSITION_DURATION):d.$element.trigger("focus").trigger(f)}))},c.prototype.hide=function(b){b&&b.preventDefault(),b=a.Event("hide.bs.modal"),this.$element.trigger(b),this.isShown&&!b.isDefaultPrevented()&&(this.isShown=!1,this.escape(),this.resize(),a(document).off("focusin.bs.modal"),this.$element.removeClass("in").off("click.dismiss.bs.modal").off("mouseup.dismiss.bs.modal"),this.$dialog.off("mousedown.dismiss.bs.modal"),a.support.transition&&this.$element.hasClass("fade")?this.$element.one("bsTransitionEnd",a.proxy(this.hideModal,this)).emulateTransitionEnd(c.TRANSITION_DURATION):this.hideModal())},c.prototype.enforceFocus=function(){a(document).off("focusin.bs.modal").on("focusin.bs.modal",a.proxy(function(a){document===a.target||this.$element[0]===a.target||this.$element.has(a.target).length||this.$element.trigger("focus")},this))},c.prototype.escape=function(){this.isShown&&this.options.keyboard?this.$element.on("keydown.dismiss.bs.modal",a.proxy(function(a){27==a.which&&this.hide()},this)):this.isShown||this.$element.off("keydown.dismiss.bs.modal")},c.prototype.resize=function(){this.isShown?a(window).on("resize.bs.modal",a.proxy(this.handleUpdate,this)):a(window).off("resize.bs.modal")},c.prototype.hideModal=function(){var a=this;this.$element.hide(),this.backdrop(function(){a.$body.removeClass("modal-open"),a.resetAdjustments(),a.resetScrollbar(),a.$element.trigger("hidden.bs.modal")})},c.prototype.removeBackdrop=function(){this.$backdrop&&this.$backdrop.remove(),this.$backdrop=null},c.prototype.backdrop=function(b){var d=this,e=this.$element.hasClass("fade")?"fade":"";if(this.isShown&&this.options.backdrop){var f=a.support.transition&&e;if(this.$backdrop=a(document.createElement("div")).addClass("modal-backdrop "+e).appendTo(this.$body),this.$element.on("click.dismiss.bs.modal",a.proxy(function(a){return this.ignoreBackdropClick?void(this.ignoreBackdropClick=!1):void(a.target===a.currentTarget&&("static"==this.options.backdrop?this.$element[0].focus():this.hide()))},this)),f&&this.$backdrop[0].offsetWidth,this.$backdrop.addClass("in"),!b)return;f?this.$backdrop.one("bsTransitionEnd",b).emulateTransitionEnd(c.BACKDROP_TRANSITION_DURATION):b()}else if(!this.isShown&&this.$backdrop){this.$backdrop.removeClass("in");var g=function(){d.removeBackdrop(),b&&b()};a.support.transition&&this.$element.hasClass("fade")?this.$backdrop.one("bsTransitionEnd",g).emulateTransitionEnd(c.BACKDROP_TRANSITION_DURATION):g()}else b&&b()},c.prototype.handleUpdate=function(){this.adjustDialog()},c.prototype.adjustDialog=function(){var a=this.$element[0].scrollHeight>document.documentElement.clientHeight;this.$element.css({paddingLeft:!this.bodyIsOverflowing&&a?this.scrollbarWidth:"",paddingRight:this.bodyIsOverflowing&&!a?this.scrollbarWidth:""})},c.prototype.resetAdjustments=function(){this.$element.css({paddingLeft:"",paddingRight:""})},c.prototype.checkScrollbar=function(){var a=window.innerWidth;if(!a){var b=document.documentElement.getBoundingClientRect();a=b.right-Math.abs(b.left)}this.bodyIsOverflowing=document.body.clientWidth<a,this.scrollbarWidth=this.measureScrollbar()},c.prototype.setScrollbar=function(){var a=parseInt(this.$body.css("padding-right")||0,10);this.originalBodyPad=document.body.style.paddingRight||"",this.bodyIsOverflowing&&this.$body.css("padding-right",a+this.scrollbarWidth)},c.prototype.resetScrollbar=function(){this.$body.css("padding-right",this.originalBodyPad)},c.prototype.measureScrollbar=function(){var a=document.createElement("div");a.className="modal-scrollbar-measure",this.$body.append(a);var b=a.offsetWidth-a.clientWidth;return this.$body[0].removeChild(a),b};var d=a.fn.modal;a.fn.modal=b,a.fn.modal.Constructor=c,a.fn.modal.noConflict=function(){return a.fn.modal=d,this},a(document).on("click.bs.modal.data-api",'[data-toggle="modal"]',function(c){var d=a(this),e=d.attr("href"),f=a(d.attr("data-target")||e&&e.replace(/.*(?=#[^\s]+$)/,"")),g=f.data("bs.modal")?"toggle":a.extend({remote:!/#/.test(e)&&e},f.data(),d.data());d.is("a")&&c.preventDefault(),f.one("show.bs.modal",function(a){a.isDefaultPrevented()||f.one("hidden.bs.modal",function(){d.is(":visible")&&d.trigger("focus")})}),b.call(f,g,this)})}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.tooltip"),f="object"==typeof b&&b;!e&&/destroy|hide/.test(b)||(e||d.data("bs.tooltip",e=new c(this,f)),"string"==typeof b&&e[b]())})}var c=function(a,b){this.type=null,this.options=null,this.enabled=null,this.timeout=null,this.hoverState=null,this.$element=null,this.inState=null,this.init("tooltip",a,b)};c.VERSION="3.3.7",c.TRANSITION_DURATION=150,c.DEFAULTS={animation:!0,placement:"top",selector:!1,template:'<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',trigger:"hover focus",title:"",delay:0,html:!1,container:!1,viewport:{selector:"body",padding:0}},c.prototype.init=function(b,c,d){if(this.enabled=!0,this.type=b,this.$element=a(c),this.options=this.getOptions(d),this.$viewport=this.options.viewport&&a(a.isFunction(this.options.viewport)?this.options.viewport.call(this,this.$element):this.options.viewport.selector||this.options.viewport),this.inState={click:!1,hover:!1,focus:!1},this.$element[0]instanceof document.constructor&&!this.options.selector)throw new Error("`selector` option must be specified when initializing "+this.type+" on the window.document object!");for(var e=this.options.trigger.split(" "),f=e.length;f--;){var g=e[f];if("click"==g)this.$element.on("click."+this.type,this.options.selector,a.proxy(this.toggle,this));else if("manual"!=g){var h="hover"==g?"mouseenter":"focusin",i="hover"==g?"mouseleave":"focusout";this.$element.on(h+"."+this.type,this.options.selector,a.proxy(this.enter,this)),this.$element.on(i+"."+this.type,this.options.selector,a.proxy(this.leave,this))}}this.options.selector?this._options=a.extend({},this.options,{trigger:"manual",selector:""}):this.fixTitle()},c.prototype.getDefaults=function(){return c.DEFAULTS},c.prototype.getOptions=function(b){return b=a.extend({},this.getDefaults(),this.$element.data(),b),b.delay&&"number"==typeof b.delay&&(b.delay={show:b.delay,hide:b.delay}),b},c.prototype.getDelegateOptions=function(){var b={},c=this.getDefaults();return this._options&&a.each(this._options,function(a,d){c[a]!=d&&(b[a]=d)}),b},c.prototype.enter=function(b){var c=b instanceof this.constructor?b:a(b.currentTarget).data("bs."+this.type);return c||(c=new this.constructor(b.currentTarget,this.getDelegateOptions()),a(b.currentTarget).data("bs."+this.type,c)),b instanceof a.Event&&(c.inState["focusin"==b.type?"focus":"hover"]=!0),c.tip().hasClass("in")||"in"==c.hoverState?void(c.hoverState="in"):(clearTimeout(c.timeout),c.hoverState="in",c.options.delay&&c.options.delay.show?void(c.timeout=setTimeout(function(){"in"==c.hoverState&&c.show()},c.options.delay.show)):c.show())},c.prototype.isInStateTrue=function(){for(var a in this.inState)if(this.inState[a])return!0;return!1},c.prototype.leave=function(b){var c=b instanceof this.constructor?b:a(b.currentTarget).data("bs."+this.type);if(c||(c=new this.constructor(b.currentTarget,this.getDelegateOptions()),a(b.currentTarget).data("bs."+this.type,c)),b instanceof a.Event&&(c.inState["focusout"==b.type?"focus":"hover"]=!1),!c.isInStateTrue())return clearTimeout(c.timeout),c.hoverState="out",c.options.delay&&c.options.delay.hide?void(c.timeout=setTimeout(function(){"out"==c.hoverState&&c.hide()},c.options.delay.hide)):c.hide()},c.prototype.show=function(){var b=a.Event("show.bs."+this.type);if(this.hasContent()&&this.enabled){this.$element.trigger(b);var d=a.contains(this.$element[0].ownerDocument.documentElement,this.$element[0]);if(b.isDefaultPrevented()||!d)return;var e=this,f=this.tip(),g=this.getUID(this.type);this.setContent(),f.attr("id",g),this.$element.attr("aria-describedby",g),this.options.animation&&f.addClass("fade");var h="function"==typeof this.options.placement?this.options.placement.call(this,f[0],this.$element[0]):this.options.placement,i=/\s?auto?\s?/i,j=i.test(h);j&&(h=h.replace(i,"")||"top"),f.detach().css({top:0,left:0,display:"block"}).addClass(h).data("bs."+this.type,this),this.options.container?f.appendTo(this.options.container):f.insertAfter(this.$element),this.$element.trigger("inserted.bs."+this.type);var k=this.getPosition(),l=f[0].offsetWidth,m=f[0].offsetHeight;if(j){var n=h,o=this.getPosition(this.$viewport);h="bottom"==h&&k.bottom+m>o.bottom?"top":"top"==h&&k.top-m<o.top?"bottom":"right"==h&&k.right+l>o.width?"left":"left"==h&&k.left-l<o.left?"right":h,f.removeClass(n).addClass(h)}var p=this.getCalculatedOffset(h,k,l,m);this.applyPlacement(p,h);var q=function(){var a=e.hoverState;e.$element.trigger("shown.bs."+e.type),e.hoverState=null,"out"==a&&e.leave(e)};a.support.transition&&this.$tip.hasClass("fade")?f.one("bsTransitionEnd",q).emulateTransitionEnd(c.TRANSITION_DURATION):q()}},c.prototype.applyPlacement=function(b,c){var d=this.tip(),e=d[0].offsetWidth,f=d[0].offsetHeight,g=parseInt(d.css("margin-top"),10),h=parseInt(d.css("margin-left"),10);isNaN(g)&&(g=0),isNaN(h)&&(h=0),b.top+=g,b.left+=h,a.offset.setOffset(d[0],a.extend({using:function(a){d.css({top:Math.round(a.top),left:Math.round(a.left)})}},b),0),d.addClass("in");var i=d[0].offsetWidth,j=d[0].offsetHeight;"top"==c&&j!=f&&(b.top=b.top+f-j);var k=this.getViewportAdjustedDelta(c,b,i,j);k.left?b.left+=k.left:b.top+=k.top;var l=/top|bottom/.test(c),m=l?2*k.left-e+i:2*k.top-f+j,n=l?"offsetWidth":"offsetHeight";d.offset(b),this.replaceArrow(m,d[0][n],l)},c.prototype.replaceArrow=function(a,b,c){this.arrow().css(c?"left":"top",50*(1-a/b)+"%").css(c?"top":"left","")},c.prototype.setContent=function(){var a=this.tip(),b=this.getTitle();a.find(".tooltip-inner")[this.options.html?"html":"text"](b),a.removeClass("fade in top bottom left right")},c.prototype.hide=function(b){function d(){"in"!=e.hoverState&&f.detach(),e.$element&&e.$element.removeAttr("aria-describedby").trigger("hidden.bs."+e.type),b&&b()}var e=this,f=a(this.$tip),g=a.Event("hide.bs."+this.type);if(this.$element.trigger(g),!g.isDefaultPrevented())return f.removeClass("in"),a.support.transition&&f.hasClass("fade")?f.one("bsTransitionEnd",d).emulateTransitionEnd(c.TRANSITION_DURATION):d(),this.hoverState=null,this},c.prototype.fixTitle=function(){var a=this.$element;(a.attr("title")||"string"!=typeof a.attr("data-original-title"))&&a.attr("data-original-title",a.attr("title")||"").attr("title","")},c.prototype.hasContent=function(){return this.getTitle()},c.prototype.getPosition=function(b){b=b||this.$element;var c=b[0],d="BODY"==c.tagName,e=c.getBoundingClientRect();null==e.width&&(e=a.extend({},e,{width:e.right-e.left,height:e.bottom-e.top}));var f=window.SVGElement&&c instanceof window.SVGElement,g=d?{top:0,left:0}:f?null:b.offset(),h={scroll:d?document.documentElement.scrollTop||document.body.scrollTop:b.scrollTop()},i=d?{width:a(window).width(),height:a(window).height()}:null;return a.extend({},e,h,i,g)},c.prototype.getCalculatedOffset=function(a,b,c,d){return"bottom"==a?{top:b.top+b.height,left:b.left+b.width/2-c/2}:"top"==a?{top:b.top-d,left:b.left+b.width/2-c/2}:"left"==a?{top:b.top+b.height/2-d/2,left:b.left-c}:{top:b.top+b.height/2-d/2,left:b.left+b.width}},c.prototype.getViewportAdjustedDelta=function(a,b,c,d){var e={top:0,left:0};if(!this.$viewport)return e;var f=this.options.viewport&&this.options.viewport.padding||0,g=this.getPosition(this.$viewport);if(/right|left/.test(a)){var h=b.top-f-g.scroll,i=b.top+f-g.scroll+d;h<g.top?e.top=g.top-h:i>g.top+g.height&&(e.top=g.top+g.height-i)}else{var j=b.left-f,k=b.left+f+c;j<g.left?e.left=g.left-j:k>g.right&&(e.left=g.left+g.width-k)}return e},c.prototype.getTitle=function(){var a,b=this.$element,c=this.options;return a=b.attr("data-original-title")||("function"==typeof c.title?c.title.call(b[0]):c.title)},c.prototype.getUID=function(a){do a+=~~(1e6*Math.random());while(document.getElementById(a));return a},c.prototype.tip=function(){if(!this.$tip&&(this.$tip=a(this.options.template),1!=this.$tip.length))throw new Error(this.type+" `template` option must consist of exactly 1 top-level element!");return this.$tip},c.prototype.arrow=function(){return this.$arrow=this.$arrow||this.tip().find(".tooltip-arrow")},c.prototype.enable=function(){this.enabled=!0},c.prototype.disable=function(){this.enabled=!1},c.prototype.toggleEnabled=function(){this.enabled=!this.enabled},c.prototype.toggle=function(b){var c=this;b&&(c=a(b.currentTarget).data("bs."+this.type),c||(c=new this.constructor(b.currentTarget,this.getDelegateOptions()),a(b.currentTarget).data("bs."+this.type,c))),b?(c.inState.click=!c.inState.click,c.isInStateTrue()?c.enter(c):c.leave(c)):c.tip().hasClass("in")?c.leave(c):c.enter(c)},c.prototype.destroy=function(){var a=this;clearTimeout(this.timeout),this.hide(function(){a.$element.off("."+a.type).removeData("bs."+a.type),a.$tip&&a.$tip.detach(),a.$tip=null,a.$arrow=null,a.$viewport=null,a.$element=null})};var d=a.fn.tooltip;a.fn.tooltip=b,a.fn.tooltip.Constructor=c,a.fn.tooltip.noConflict=function(){return a.fn.tooltip=d,this}}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.popover"),f="object"==typeof b&&b;!e&&/destroy|hide/.test(b)||(e||d.data("bs.popover",e=new c(this,f)),"string"==typeof b&&e[b]())})}var c=function(a,b){this.init("popover",a,b)};if(!a.fn.tooltip)throw new Error("Popover requires tooltip.js");c.VERSION="3.3.7",c.DEFAULTS=a.extend({},a.fn.tooltip.Constructor.DEFAULTS,{placement:"right",trigger:"click",content:"",template:'<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'}),c.prototype=a.extend({},a.fn.tooltip.Constructor.prototype),c.prototype.constructor=c,c.prototype.getDefaults=function(){return c.DEFAULTS},c.prototype.setContent=function(){var a=this.tip(),b=this.getTitle(),c=this.getContent();a.find(".popover-title")[this.options.html?"html":"text"](b),a.find(".popover-content").children().detach().end()[this.options.html?"string"==typeof c?"html":"append":"text"](c),a.removeClass("fade top bottom left right in"),a.find(".popover-title").html()||a.find(".popover-title").hide()},c.prototype.hasContent=function(){return this.getTitle()||this.getContent()},c.prototype.getContent=function(){var a=this.$element,b=this.options;return a.attr("data-content")||("function"==typeof b.content?b.content.call(a[0]):b.content)},c.prototype.arrow=function(){return this.$arrow=this.$arrow||this.tip().find(".arrow")};var d=a.fn.popover;a.fn.popover=b,a.fn.popover.Constructor=c,a.fn.popover.noConflict=function(){return a.fn.popover=d,this}}(jQuery),+function(a){"use strict";function b(c,d){this.$body=a(document.body),this.$scrollElement=a(a(c).is(document.body)?window:c),this.options=a.extend({},b.DEFAULTS,d),this.selector=(this.options.target||"")+" .nav li > a",this.offsets=[],this.targets=[],this.activeTarget=null,this.scrollHeight=0,this.$scrollElement.on("scroll.bs.scrollspy",a.proxy(this.process,this)),this.refresh(),this.process()}function c(c){return this.each(function(){var d=a(this),e=d.data("bs.scrollspy"),f="object"==typeof c&&c;e||d.data("bs.scrollspy",e=new b(this,f)),"string"==typeof c&&e[c]()})}b.VERSION="3.3.7",b.DEFAULTS={offset:10},b.prototype.getScrollHeight=function(){return this.$scrollElement[0].scrollHeight||Math.max(this.$body[0].scrollHeight,document.documentElement.scrollHeight)},b.prototype.refresh=function(){var b=this,c="offset",d=0;this.offsets=[],this.targets=[],this.scrollHeight=this.getScrollHeight(),a.isWindow(this.$scrollElement[0])||(c="position",d=this.$scrollElement.scrollTop()),this.$body.find(this.selector).map(function(){var b=a(this),e=b.data("target")||b.attr("href"),f=/^#./.test(e)&&a(e);return f&&f.length&&f.is(":visible")&&[[f[c]().top+d,e]]||null}).sort(function(a,b){return a[0]-b[0]}).each(function(){b.offsets.push(this[0]),b.targets.push(this[1])})},b.prototype.process=function(){var a,b=this.$scrollElement.scrollTop()+this.options.offset,c=this.getScrollHeight(),d=this.options.offset+c-this.$scrollElement.height(),e=this.offsets,f=this.targets,g=this.activeTarget;if(this.scrollHeight!=c&&this.refresh(),b>=d)return g!=(a=f[f.length-1])&&this.activate(a);if(g&&b<e[0])return this.activeTarget=null,this.clear();for(a=e.length;a--;)g!=f[a]&&b>=e[a]&&(void 0===e[a+1]||b<e[a+1])&&this.activate(f[a])},b.prototype.activate=function(b){
+    this.activeTarget=b,this.clear();var c=this.selector+'[data-target="'+b+'"],'+this.selector+'[href="'+b+'"]',d=a(c).parents("li").addClass("active");d.parent(".dropdown-menu").length&&(d=d.closest("li.dropdown").addClass("active")),d.trigger("activate.bs.scrollspy")},b.prototype.clear=function(){a(this.selector).parentsUntil(this.options.target,".active").removeClass("active")};var d=a.fn.scrollspy;a.fn.scrollspy=c,a.fn.scrollspy.Constructor=b,a.fn.scrollspy.noConflict=function(){return a.fn.scrollspy=d,this},a(window).on("load.bs.scrollspy.data-api",function(){a('[data-spy="scroll"]').each(function(){var b=a(this);c.call(b,b.data())})})}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.tab");e||d.data("bs.tab",e=new c(this)),"string"==typeof b&&e[b]()})}var c=function(b){this.element=a(b)};c.VERSION="3.3.7",c.TRANSITION_DURATION=150,c.prototype.show=function(){var b=this.element,c=b.closest("ul:not(.dropdown-menu)"),d=b.data("target");if(d||(d=b.attr("href"),d=d&&d.replace(/.*(?=#[^\s]*$)/,"")),!b.parent("li").hasClass("active")){var e=c.find(".active:last a"),f=a.Event("hide.bs.tab",{relatedTarget:b[0]}),g=a.Event("show.bs.tab",{relatedTarget:e[0]});if(e.trigger(f),b.trigger(g),!g.isDefaultPrevented()&&!f.isDefaultPrevented()){var h=a(d);this.activate(b.closest("li"),c),this.activate(h,h.parent(),function(){e.trigger({type:"hidden.bs.tab",relatedTarget:b[0]}),b.trigger({type:"shown.bs.tab",relatedTarget:e[0]})})}}},c.prototype.activate=function(b,d,e){function f(){g.removeClass("active").find("> .dropdown-menu > .active").removeClass("active").end().find('[data-toggle="tab"]').attr("aria-expanded",!1),b.addClass("active").find('[data-toggle="tab"]').attr("aria-expanded",!0),h?(b[0].offsetWidth,b.addClass("in")):b.removeClass("fade"),b.parent(".dropdown-menu").length&&b.closest("li.dropdown").addClass("active").end().find('[data-toggle="tab"]').attr("aria-expanded",!0),e&&e()}var g=d.find("> .active"),h=e&&a.support.transition&&(g.length&&g.hasClass("fade")||!!d.find("> .fade").length);g.length&&h?g.one("bsTransitionEnd",f).emulateTransitionEnd(c.TRANSITION_DURATION):f(),g.removeClass("in")};var d=a.fn.tab;a.fn.tab=b,a.fn.tab.Constructor=c,a.fn.tab.noConflict=function(){return a.fn.tab=d,this};var e=function(c){c.preventDefault(),b.call(a(this),"show")};a(document).on("click.bs.tab.data-api",'[data-toggle="tab"]',e).on("click.bs.tab.data-api",'[data-toggle="pill"]',e)}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.affix"),f="object"==typeof b&&b;e||d.data("bs.affix",e=new c(this,f)),"string"==typeof b&&e[b]()})}var c=function(b,d){this.options=a.extend({},c.DEFAULTS,d),this.$target=a(this.options.target).on("scroll.bs.affix.data-api",a.proxy(this.checkPosition,this)).on("click.bs.affix.data-api",a.proxy(this.checkPositionWithEventLoop,this)),this.$element=a(b),this.affixed=null,this.unpin=null,this.pinnedOffset=null,this.checkPosition()};c.VERSION="3.3.7",c.RESET="affix affix-top affix-bottom",c.DEFAULTS={offset:0,target:window},c.prototype.getState=function(a,b,c,d){var e=this.$target.scrollTop(),f=this.$element.offset(),g=this.$target.height();if(null!=c&&"top"==this.affixed)return e<c&&"top";if("bottom"==this.affixed)return null!=c?!(e+this.unpin<=f.top)&&"bottom":!(e+g<=a-d)&&"bottom";var h=null==this.affixed,i=h?e:f.top,j=h?g:b;return null!=c&&e<=c?"top":null!=d&&i+j>=a-d&&"bottom"},c.prototype.getPinnedOffset=function(){if(this.pinnedOffset)return this.pinnedOffset;this.$element.removeClass(c.RESET).addClass("affix");var a=this.$target.scrollTop(),b=this.$element.offset();return this.pinnedOffset=b.top-a},c.prototype.checkPositionWithEventLoop=function(){setTimeout(a.proxy(this.checkPosition,this),1)},c.prototype.checkPosition=function(){if(this.$element.is(":visible")){var b=this.$element.height(),d=this.options.offset,e=d.top,f=d.bottom,g=Math.max(a(document).height(),a(document.body).height());"object"!=typeof d&&(f=e=d),"function"==typeof e&&(e=d.top(this.$element)),"function"==typeof f&&(f=d.bottom(this.$element));var h=this.getState(g,b,e,f);if(this.affixed!=h){null!=this.unpin&&this.$element.css("top","");var i="affix"+(h?"-"+h:""),j=a.Event(i+".bs.affix");if(this.$element.trigger(j),j.isDefaultPrevented())return;this.affixed=h,this.unpin="bottom"==h?this.getPinnedOffset():null,this.$element.removeClass(c.RESET).addClass(i).trigger(i.replace("affix","affixed")+".bs.affix")}"bottom"==h&&this.$element.offset({top:g-b-f})}};var d=a.fn.affix;a.fn.affix=b,a.fn.affix.Constructor=c,a.fn.affix.noConflict=function(){return a.fn.affix=d,this},a(window).on("load",function(){a('[data-spy="affix"]').each(function(){var c=a(this),d=c.data();d.offset=d.offset||{},null!=d.offsetBottom&&(d.offset.bottom=d.offsetBottom),null!=d.offsetTop&&(d.offset.top=d.offsetTop),b.call(c,d)})})}(jQuery);
+</script>
+</body>
+</html>
